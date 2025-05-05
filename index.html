@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>RESPONSIVE PERSONAL PORTFOLIO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--body-->
+    <header class="header">
+        <a href="#" class="logo">Sumanth Thota</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Sumanth</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <div class="social-media">
+                    <a href="https://github.com/Sumanth-451"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/sumanth-thota-656b4032a/"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                
+            </div>
+            <a href="https://drive.google.com/file/d/10GcVuygM5Qrcten9FX6S5AAFs-DdkHCI/view?usp=drive_link" 
+            class="btn" 
+            style="padding: 12px 24px; font-size: 18px;">
+            Resume
+         </a>
+         
+        </div>
+        <div class="home-img">
+            <img src="portfolio.jpg" alt="Koppula Maithri" class="hero__img"
+     style="border-radius: 20px; width: 300px; height: auto; box-shadow: 0 10px 20px rgba(0,0,0,0.3); object-fit: cover;">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-Stack Developer</h3>
+            <p>Hello! I'm Sumanth, a full stack developer and AI&Ml Developer. I'm very passionate about Website designing and Artificial Intelligence and Machine learning.</p>
+            <p style="font-size: 18px; line-height: 1.8; margin-bottom: 15px;">
+                🏆 Bronze medalist at <strong>HackIndia</strong><br>
+                🛠 Interned as a Full-Stack Developer with <strong>AICTE</strong><br>
+                🚀 Co-founded <strong>AmigoWears</strong>, a B2C e-commerce platform currently in beta
+              </p>
+              <p style="font-size: 18px; line-height: 1.8; margin-bottom: 15px;">
+                I believe in continuous learning, teamwork, and building tech that has impact. Whether it's AI, design, or backend logic — I love bringing ideas to life.
+              </p>
+              <p style="font-size: 18px; line-height: 1.8;">
+                <strong>Feel free to explore my work and reach out if you'd like to collaborate or just chat tech!</strong>
+              </p>
+        </div>
+
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Passionate web development enthusiast with hands-on experience in building responsive websites using HTML, CSS, JavaScript, React, and Tailwind CSS. Familiar with back-end tools like Node.js, Express.js, MongoDB, and MySQL. Gained practical skills through projects, hackathons, and internships, and eager to keep learning and contributing to real-world solutions.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-crop'></i>
+                <h3>AIML Developer</h3>
+                <p>Enthusiastic AI/ML developer with foundational experience in building intelligent systems using Python, NumPy, Pandas, Scikit-learn, and TensorFlow. Skilled in data preprocessing, model training, and evaluation for classification, regression, and clustering tasks. Developed projects involving predictive analytics, recommendation systems, and computer vision. Eager to apply machine learning to solve real-world problems and continuously grow in the AI field.</p>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="ayur_bot.png" alt="Ayur Bot">
+                <div class="portfolio-layer">
+                    <h4>Ayur Bot</h4>
+                    <p>An AI-powered chatbot that provides Ayurvedic remedies and health tips.</p>
+                    <a href="https://ayurbot.streamlit.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="sign.png" alt="Sign Bridge">
+                <div class="portfolio-layer">
+                    <h4>Sign Bridge</h4>
+                    <p>A sign language interpreter using machine learning to bridge communication gaps.</p>
+                    <a href="https://github.com/Sumanth-451/SignBridge"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- New Project -->
+            <div class="portfolio-box">
+                <img src="weather.jpg" alt="Weather Forecasting Website">
+                <div class="portfolio-layer">
+                    <h4>Weather Forecasting Website</h4>
+                    <p>A web application that provides real-time weather updates and forecasts for any location.</p>
+                    <a href="https://github.com/Sumanth-451/Weather1"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="heading">Contact <span>ME!</span></h2>
+
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                    <input type="text" name="Email Subject" placeholder="Email Subject">
+                </div>
+                <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <span id="msg"></span>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; Sumanth Thota | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
